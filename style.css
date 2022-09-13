@@ -65,3 +65,31 @@ background-color: #cff1ca;
     font-weight:700;
     line-height: 1;
 }
+
+.proper-heading-section{
+    background-color: #F1CAF0;
+}
+
+.proper-heading-section.section .interior{
+    border: none;
+}
+
+.proper-heading-section.section .interior h1{
+    color: #6C0468;;
+}
+
+.proper-heading-section.section .interior h2{
+    color: #6C0468;;
+}
+
+.proper-heading-section.section .interior h3{
+    color: #6C0468;;  
+}
+
+.proper-heading-section.section .interior h4{
+    color: #6C0468;;
+}
+
+.proper-heading-section.section .interior p{
+    color: #6C0468;;
+}
