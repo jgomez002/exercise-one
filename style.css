@@ -194,3 +194,20 @@ background-color: #cff1ca;
     bottom: 40px;
     left: 40px;;
 }
+
+.footer-section{
+    height: 108px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFC3C3;
+
+}
+
+.footer-section-interior p{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    /* line-height: 28px; */
+    border: none;
+
+}
