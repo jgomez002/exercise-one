@@ -10,11 +10,11 @@
 <body>
     <header>
         <nav>
-            <a href=""> Box Model</a>
-            <a href=""> Flex Model</a>
-            <a href=""> Postioning Elements</a>
-            <a href=""> Heading Usage </a>
-            <a href=""> Simple Javascript</a>
+            <a href="#box-model"> Box Model</a>
+            <a href="#flex-box"> Flex Model</a>
+            <a href="#postioning-section"> Postioning Elements</a>
+            <a href="#proper-heading"> Heading Usage </a>
+            <a href="#simple-js"> Simple Javascript</a>
 
         </nav>
     </header>
@@ -69,11 +69,28 @@
             </div>
         </section>
         <section id="simple-js" class="simple-js-section section">
-            <div class="simple-js-interior interior"></div>
+            <script>
+                let counter = 0;
+
+                function increaseCounterValue(){
+                    counter = counter + 1;
+                    const counterDiv = document.querySelector('#counter');
+                    counterDiv.innerHTML = counter;
+                }
+            </script>
+            <div class="simple-js-interior interior">
+                <h1>Simple Javascript</h1>
+                <div class="counter-button-wrapper">
+                <p id="counter">0</div>
+                <div id="button">
+                    <button onclick="increaseCounterValue()">Click to increase counter</button>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
     <footer class="footer-section section">
-        <div class="footer-section-interior">
+        <div class="footer-section-interior interior">
             <p>Student Name - Semester, Year</p>
         </div>
     </footer>
