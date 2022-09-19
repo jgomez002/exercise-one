@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body ,
 h1,
 h2,
@@ -10,10 +11,45 @@ font-family: sans-serif;
  margin: 0;
 }
 
+.circle,.square{
+    background-color: #4480F4;
+    border: 10px solid #0E3F9E;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.circle{
+    border-radius: 50%;
+    
+}
+
+.circle.circle-one{
+    bottom: 40px;
+    left: 40px;;
+}
+
+.counter-button-wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.counter-button-wrapper p{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    margin: 0 40px 0 0;
+    color: #504D46;
+    ;
+}
+
 header {
 background-color: #84c4ff;
 padding: 40px;
 }
+
 header nav {
 align-items: center;
 display: flex;
@@ -26,33 +62,25 @@ width: 100%;
 header nav a{
 color: #000;
 font-weight: bold;
-margin-left: 0 15px;
+margin: 0 15px;
 padding: 5px;
 text-decoration: none;
 }
+
+header nav a:first-of-type{
+margin-left: 0;
+}   
 
 header nav a:last-of-type{
 margin-right: 0;
 }
 
-header nav a:first-of-type{
-margin-left: 0;
-}
-
-.section.section{
-margin:0;
-padding: 40px;
-}
-
-.section.box-model-section{
-background-color: #cff1ca;
-}
 
 .interior{
     border: 10px solid #000;
     margin: 0 auto;
+    max-width: 1200px;
     padding: 40px;
-    max-width: 1200px;;
     width: 100%;
 }
 
@@ -66,10 +94,32 @@ background-color: #cff1ca;
     background-color: #F1D3CA;
 }
 
+.footer-section{
+    width: 100%;
+    background-color: #FFC3C3;
+    border: none;
+    height: 108px;
+}
+
+.footer-section-interior {
+    margin: 0 auto;
+    border: none;
+    padding: 0%;
+
+}
+
+.footer-section p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0%;
+    padding: 0%;
+}
+
 .interior h1{
     color: #000;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 700;
     line-height:1.5 ;
     margin-bottom: 45px;
 }
@@ -155,32 +205,42 @@ background-color: #cff1ca;
 }
 
 
-.proper-heading-section{
+.proper-heading-section {
     background-color: #F1CAF0;
 }
 
-.proper-heading-section.section .interior{
+.proper-heading-section .interior{
     border: none;
+    margin: 0 auto;
+    padding: 0%;
+}
+.proper-heading-interior h1,h3{
+    color: #6C0468;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.6;
+    margin-bottom: 25px;
 }
 
-.proper-heading-section.section .interior h1{
-    color: #6C0468;;
+.proper-heading-interior h2{
+    color: #6C0468;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
 }
 
-.proper-heading-section.section .interior h2{
-    color: #6C0468;;
+.proper-heading-interior p{
+    color: #6C0468;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
 }
 
-.proper-heading-section.section .interior h3{
-    color: #6C0468;;  
-}
-
-.proper-heading-section.section .interior h4{
-    color: #6C0468;;
-}
-
-.proper-heading-section.section .interior p{
-    color: #6C0468;;
+.proper-heading-interior h4{
+    color: #6C0468;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
 }
 
 .postioning-section{
@@ -195,61 +255,28 @@ background-color: #cff1ca;
     overflow: hidden;
 }
 
-.circle,.square{
-    background-color: #4480F4;
-    border: 10px solid #0E3F9E;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-}
 
-.circle{
-    border-radius: 50%;
+.section.section{
+    margin:0;
+    padding: 40px;
+ }
     
+.section.box-model-section{
+    background-color: #cff1ca;
 }
-
-.circle.circle-one{
-    bottom: 40px;
-    left: 40px;;
-}
-
-.footer-section{
-    width: 100%;
-    background-color: #FFC3C3;
-    border: none;
-    height: 108px;
-}
-
-.footer-section-interior {
-    margin: 0 auto;
-    border: none;
-    padding: 0%;
-
-}
-
-.footer-section p{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0%;
-    padding: 0%;
-}
-
 
 .simple-js-section {
     background-color: #FAEFD3;
     color: #644904;
-
 }
 
-.counter-button-wrapper {
-    display: flex;
-    align-items: center;
+.simple-js-section h1{
+    color: #644904;
 }
 
-.counter-button-wrapper p{
-    font-size: 54px;
-    font-weight: 700;
-    line-height: 74px;
-    margin: 0 40px 0 0;
+.simple-js-section .interior{
+    border-color: #644904;
+    color: #644904;
+    max-width: 1200px;
 }
+
