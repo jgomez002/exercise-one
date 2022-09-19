@@ -32,18 +32,17 @@ font-family: sans-serif;
 .counter-button-wrapper {
     display: flex;
     align-items: center;
-
 }
 
 
-.counter-button-wrapper p{
+.interior .counter-button-wrapper p{
     font-size: 64px;
     font-weight: 700;
     line-height: 74px;
     margin: 0 40px 0 0;
     color: #504D46;
-    ;
-}
+ }
+ 
 
 header {
 background-color: #84c4ff;
